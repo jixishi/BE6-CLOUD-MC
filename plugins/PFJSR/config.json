@@ -1,0 +1,17 @@
+{
+  "JSR": {
+    "Enable": true,
+    "Path": "plugins/PFJS",
+    "FileRegex": ".*(?<!\\.v)\\.js$",
+    "CheckUuid": true,
+    "HotReloadEnabled": true,
+    "SystemCmdEnabled": false,
+    "HotReloadCommand": "pfjsr reload"
+  },
+  "VanillaScripts": {
+    "Enable": true,
+    "Path": "plugins/PFJS",
+    "FileRegex": ".*\\.v\\.js$"
+  },
+  "LoadCSRAssembly": true
+}

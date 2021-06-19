@@ -1,0 +1,93 @@
+﻿startLoadingLanguagePackNotice=Start loading $s0 language pack!
+# The content would be printed on the console when starting loading language pack
+# Correct format is "Label=Content"
+# Plz make sure there are no repeated labels
+# The code should be kept in UTF-8
+# You are supposed to start with a '#' to add a comment
+playerSucideNotice=[ARCCore]You committed suicide.
+# You can set notice infomation as you want under the circumstance when you understand what the labels mean
+playerSucideBroadcastNotice=Player $s0 chose a relaxed way to get out
+# $s0 refers to a variable, other variables in the content (if needed) should be $s1 $s2 and so on, do not add or remove variables casually
+serverClosingNotice=Shutting down server...
+bankAccountIsNotCreatedNotice=[$s0]You have not opened an account! Please send '/bank oa Password' first to create your bank account.
+successfullyCreatebankAccountNotice=[$s0]Ding! Congratulations on your successful account opening!
+failToCreateAccountDueToUnknownErrorNotice=[$s0]Account opening failed! Please contact the server OP or try again later!
+failToCreateAccountDueToAccountAlreadyCreatedNotice=[$s0]Account opening failed! You already have an account with this bank!
+failToCreateAccountDueToPasswordNotAllowedNotice=[$s0]Account opening failed! Please set your bank password correctly!
+failToTransferMoneyDueToWrongCommandFormatNotice=[$s0]Your transfer instruction is used incorrectly! Correct format:'/bank tr PlayerName MoneyAmount (Password)'.
+failToTransferMoneyDueToTargetPlayerIsOfflineNotice=[$s0]This player is not online. For the safety of your personal property, you can only transfer money to online players!
+failToTransferMoneyDueToNegativeMoneyAmountNotice=[$s0]The transfer amount must be greater than 0!
+failToTransferMoneyDueToMoneyAmountTooBigNotice=[$s0]The amount of a single transfer cannot be greater than 99999!
+failToTransferMoneyDueToNotHavingEnoughMoneyNotice=[$s0]You don’t have enough money in your bank account to transfer money!
+failToTransferMoneyDueToWrongPasswordNotice=[$s0]The password is wrong, the transfer failed!
+failToTransferMoneyDueToTargetPlayerNotHavingBankAccountNotice=[$s0]The transfer failed, the target player does not have a bank account yet, please let the other party open an account first!
+transferMoneyWithoutPasswordIsAlreadyOnNotice=[$s0]You have turned on the secret-free transfer function, if you need to close it, please use the'/bank dsft' command.
+failToEnableTransferMoneyWithoutPasswordDueToBlankPasswordNotice=[$s0]You need to enter your bank password correctly to enable the secret-free transfer function!
+failToEnableTransferMoneyWithoutPasswordDueToWrongPasswordNotice=[$s0]The password is wrong and the password-free transfer function could not be activated!
+failToEnableTransferMoneyWithoutPasswordDueToUnknownErrorNotice=[$s0]Failed to open the password-free transfer function, please contact the administrator or plug-in author!
+successfullyEnableTransferMoneyWithoutPasswordNotice=[$s0]The secret-free transfer function has been successfully turned on for you.
+transferMoneyWithoutPasswordIsAlreadyOffNotice=[$s0]You have turned off the secret-free transfer function, if you need to enable it, please use the'/bank esft' command.
+successfullyDisableTransferMoneyWithoutPasswordNotice=[$s0]The secret-free transfer function has been successfully turned off for you
+failToDisableTransferMoneyWithoutPasswordDueToUnknownErrorNotice=[$s0]Failed to turn off the password-free transfer function for you, please contact the administrator or plugin author!
+moneyRankNotExistNotice=[$s0]There is currently no player leaderboard!
+failToChangePasswordDueToWrongCommandFormatNotice=[$s0]The format of your password change instruction is wrong! Correct format:'/bank cp OldPw NewPw'
+successfullyChangePasswordNotice=[$s0]Your password has been successfully changed!
+failToChangePasswordDueToWrongOldPasswordNotice=[$s0]The old password you entered is wrong, please check and try again!
+failToGivePlayerMoneyDueToWrongCommandFormatNotice=[ARCCore]Wrong command format! Correct format:'/givemoney PlayerName MoneyAmount'
+failToGivePlayerMoneyDueToMoneyAmountTooBigNotice=[ARCCore]The change in money exceeds the limit of 32-bit INT!
+failToGivePlayerMoneyDueToPlayerHasTooMuchMoneyNotice=[ARCCore]This player's money exceeds the limit of 32-bit INT!
+failToGivePlayerMoneyDueToMoneyIsNotInt32Notice=[ARCCore]The changed player amount can only be an integer!
+failToGivePlayerMoneyDueToTargetPlayerIsOfflineNotice=[ARCCore]You can only add money to online players!
+failToGivePlayerMoneyDueToPlayerNotHavingBankAccountNotice=[ARCCore]This player has not opened an account in the banking system!
+failToBuyManorDueToUndecidedPos1Notice=[Manor System]Please determine the first point of the territory!
+failToBuyManorDueToUndecidedPos2Notice=[Manor System]Please use the'/pos1 or /pos2' command to determine the two points of the territory before purchasing the territory!
+failToBuyManorDueToLandSmallerThan5x5Notice=[Manor System]The territory you choose is too small, the length and width of the territory must be greater than or equal to 5 blocks, and the minimum territory area is 5x5!
+failToBuyManorDueToNotHavingEnoughMoneyNotice=[$s0]You do not have enough bank deposits to purchase the territory!
+noPermissionToOperateOthersManorNotice=[Manor System]You don't have permission to place or destroy blocks on other people's territory!
+failToAuthrizeDueToWrongCommandFormatNotice=[Manor System]You used the wrong authorization command, the correct format:'/land ta ManorOrder'.
+failToAuthrizeDueToWrongOrderNotice=[Manor System]Please use the correct territory number!
+notInManorNotice=[Manor System]You are not currently in a territory!
+failToOperateOthersManorNotice=[Manor System]You are not the owner of this territory, and you have no operation authority!
+manorNotFoundNotice=[Manor System]This territory was not found, please check the territory number and try again!
+blankWarpNameNotice=[Teleport System]Please enter the name of the teleporter!
+warpNotFoundNotice=[Teleport System]The transmission failed, this teleport point was not found, please enter '/warplist' to view the teleport point list and confirm!
+warpInOtherDemensionNotice=[Teleport System]Transmission failed. The community version of CSR does not support cross-world warp transmission!
+successfullySetWorldSpawnNotice=[Teleport System]Successfully change the world spawn point!
+worldSpawnHasNotBeenSetNotice=[Teleport System]Please ask the administrator to use the '/setworldspawn' command to set the world birthplace!
+spawnInOtherDemensionNotice=[Teleport System]Transmission failed, the community version of CSR does not support cross-world transmission!
+successfullyTeleportedToSpawnNotice=[Teleport System]Teleported you to the spawn point.
+tpaPlayerNameBlankNotice=[Teleport System]Please enter the game name of the player you want to send to!
+tpaPlayerOfflineNotice=[Teleport System]You can only send teleport requests to online players!
+noTeleportRequestNotice=[Teleport System]You currently have no transmission request to respond to!
+teleportedToDeathPositionNotice=[Teleport System]You have been sent back to the place of your last death!
+deathPositionInOtherDemisionNotice=[Teleport System]The place where you last died was not in this world, and the community version of NetRunner does not support cross-world transmission!
+homeAmountUpmostNotice=[Teleport System]The number of homes you set has reached the upper limit!
+homeNameBlankNotice=[Teleport System]The name of the home cannot be empty!
+errorHappendForUnknownReasonNotice=[ARCCore]An unknown error has occurred, please try again later!
+playerRespawnNotice=[ARCCore]You are reborn, lose '/back' to return to the place where you died last time!
+# added in 0.8.2
+playerBuyItemNotice=[Commerce System] You bought $s2x$s3 for $s0$s1
+manorRemovedNotice=[Manor System] Use OP permission to forcibly remove the territory numbered $s1 owned by player $s0!
+manorSoldNotice=[Manor System] successfully sold the territory numbered $s0 and got $s1$s2!
+manorSoldToPlayerNotice=[Manor System] successfully sold the territory numbered $s0 to player $1, and got $s2$s3!
+manorGivenNotice=[Manor System] successfully gifted the territory numbered $s0 to player $s1!
+failToGiveManorDueToWrongCommandFormatNotice=[Manor System] The format of the command to transfer the territory permission you used is incorrect!
+failToGiveManorDueToPlayerOfflineNotice=[Manor System] In order to transfer the rights of the territory correctly, you can only transfer the territory to online players!
+manorNameSetNotice=[Manor System] successfully set the name of the manor named $s0 to [$s1]!
+wrongManorNameSettingCommandNotice=[Manor System] The command format for changing the name of the territory is wrong!
+# added in 0.8.2
+# added in 0.9.0
+failToDepositOrWithdrawDueToMoneyNotCorrect=[ARCCore] operation money must be a positive integer!
+failToDepositDueToMoneyNotEnoughNotice=[$s0]You do not have enough cash to deposit!
+failToWithdrawDueToMoneyNotEnoughNotice=[$s0]You do not have enough bank deposits!
+failToDepositOrWithdrawDueToWorngPasswordNotice=[$s0]You used the wrong bank password, please check and try again!
+successfullyDepositNotice=[$s0]Successfully deposited $s1$s2 into the bank account, your current bank deposit is $s3$s4, and your cash balance is $s5$s6
+successfullyWithdrawNotice=[$s0]Successfully withdraw $s1$s2 from the bank account, your current bank deposit is $s3$s4, and your cash balance is $s5$s6
+playerBuyItemNotice=[Commercial System] You bought $s2 set of $s3 $s4 for $s0$s1
+playerBuyItemNotFoundNotice=[Commercial System] There is no such item in the warehouse
+playerBuyItemFailedForMoneyNotEnoughNotice=[$s0]You do not have enough money for trading!
+playerBuyItemAmountNotCorrectNotice=[Commercial System] The'$s0' you entered is not the correct product quantity!
+getCoordinateNotice=[ARCCore] The coordinates of your current location are: ($s0)
+#added in 0.9.0
+successfullyLoadLanguagePackNotice=Successfully loaded the $s0 language file!
+# The content would be printed on the console when successfully loading language pack

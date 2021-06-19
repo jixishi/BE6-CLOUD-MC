@@ -1,0 +1,49 @@
+{
+    "tp.fail.rate":"TPA速度过快！！",
+    "tp.fail.inreq":"一个TPA正在进行",
+    "tp.fail.blocked":"对方屏蔽了TPA请求",
+    "tp.name.required":"需要指定目标",
+    
+    "home.is.full":"达到Home设置上限！",
+    
+    "home.not.found":"找不到传送点！",
+    
+    "tpa.req.A_B":" 发起了一个传送到你的请求,使用/tpa ac接受,/tpa de拒绝",
+    "tpa.req.B_A":" 发起了一个传送到他的请求,使用/tpa ac接受,/tpa de拒绝",
+    
+    "tpa.reason.deny":"TPA请求被拒绝",
+    "tpa.reason.timeout":"TPA请求因超时自动取消",
+    "tpa.reason.accept":"TPA请求已经被接受",
+    
+    "tpa.back.use":"可以使用/back返回上一个死亡点！",
+    
+    "tpa.form":"{\"type\":\"form\",\"title\":\"TPA 请求\",\"content\":\"%s\",\"buttons\":[{\"text\":\"接 受\"},{\"text\":\"拒 绝\"}]}",
+    
+    "home.near.others.land":"你的家距离别人领地太近！",
+
+    "warp.add.success":"+\"坐标\"+ val.value() +\"设置成功！\"",
+    "warp.del.success":"+\"坐标\"+ val.value() +\"删除成功！\"",
+
+
+    "ban.notplayer":"没有找到该玩家",
+
+    "kick.success":"踢出成功",
+
+    "vanish.success":"已开启隐身，如需要关闭，请退出游戏重进！",
+
+    "cname.set.notplayer":"该玩家不在线，已将保存自定义名称到数据库，当该玩家下次登入时自动修改",
+    "cname.set.success":"设置成功",
+    "cname.del.notplayer":"该玩家不在线，已将自定义名称从数据库删除，当该玩家下次登入时自动删除",
+    "cname.del.success":"删除成功",
+
+    "hreload.success":"成功重载配置文件",
+
+    "setPlNum.set.error":"当在线玩家大于最大玩家时，玩家将无法进入服务器，如果你要继续，请使用/setplnum_ op",
+    "setPlNum.success":"设置成功",
+
+    "setlore.success":"设置成功",
+
+    "tpr.fail.rate":"TPR速度过快！请休息一分钟在再尝试！",
+    "tpr.fail.inreq":"传送中请稍后！",
+    "tpr.success":"您已被传送至"
+    }
